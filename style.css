@@ -14,14 +14,9 @@ nav{
     min-height: 16vh;
     background-color: #08114B;
 }
-.logo{
-    color: #B42323;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-size: 20px;
-    
+.logo:hover{
+    cursor: pointer;
 }
-
 .nav-links{
     display: flex;
     justify-content: space-around;
@@ -42,6 +37,7 @@ nav{
     background: #6777AC;
     padding: 10px;
     border-radius: 5px;
+    transition: 0.2s ease-in;
 
 }
 .burger{
@@ -120,9 +116,39 @@ nav{
 }
 }
 
-.landing-img{
-  position: relative;
-  display: inline-block;
+#landing-page{
+  background: url("assets/images/bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 90vh;
   width:100%;
+}
+
+.button{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    justify-content: center;
+    text-align: center;
+    background: #BF206D;
+    border: none;
+    outline: none;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: bold;
+}
+.btn:hover{
+    color: aquamarine;
+    cursor: pointer;
+    opacity: 0.8;
 }
