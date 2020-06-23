@@ -11,11 +11,12 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 16vh;
+    min-height: 10vh;
     background-color: #08114B;
 }
 .logo:hover{
     cursor: pointer;
+    opacity: 0.8;
 }
 .nav-links{
     display: flex;
@@ -151,4 +152,14 @@ nav{
     color: aquamarine;
     cursor: pointer;
     opacity: 0.8;
+}
+.who{
+    width: 100%;
+    min-height: 20px;
+    text-align: center;
+    background: #e9dcdc;
+    color: #BF206D;
+}
+.who h2{
+    color: #fff;
 }
