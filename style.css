@@ -11,7 +11,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 10vh;
+    min-height: 15vh;
     background-color: #08114B;
 }
 .logo:hover{
@@ -161,5 +161,62 @@ nav{
     color: #BF206D;
 }
 .who h2{
-    color: #fff;
+    color:#CD5C5C;
+    font-size: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+
 }
+.who p{
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    word-spacing: 8px;
+
+}
+.column{
+    float: left;
+    width: 25%;
+    padding: 10px;
+    background: #08114B;
+}
+.column:hover{
+    padding: 30px;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+    overflow: hidden;
+}
+
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  #read{
+      width: 100%;
+      color: #CD5C5C;
+      text-align: center;
+  }
+  #read h2{
+    color:#CD5C5C;
+    font-size: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    text-decoration: underline;
+  }
+  .column p{
+      color: white;
+      overflow: hidden;
+      display: block;
+      margin-top: 1em;
+      margin-bottom: 1em;
+      margin-left: 0;
+      margin-right: 0;
+      background: yellowgreen;
+      border-radius: 5px;
+  }
