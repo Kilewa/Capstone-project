@@ -122,7 +122,7 @@ nav{
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
   height: 90vh;
   width:100%;
 }
@@ -177,13 +177,15 @@ nav{
 
 }
 .column{
+    text-align: center;
     float: left;
     width: 25%;
     padding: 10px;
     background: #08114B;
+    border: ridge 1px whitesmoke ;
 }
 .column:hover{
-    padding: 30px;
+    padding: 20px;
     cursor: pointer;
     transition: 0.5s ease-in;
     overflow: hidden;
@@ -210,13 +212,38 @@ nav{
     text-decoration: underline;
   }
   .column p{
-      color: white;
+      color: #B20020;
       overflow: hidden;
       display: block;
       margin-top: 1em;
       margin-bottom: 1em;
       margin-left: 0;
       margin-right: 0;
-      background: yellowgreen;
+      background: #C4C4C4;
       border-radius: 5px;
   }
+  @media screen and (max-width:768px){
+    #landing-page{
+        background: url("assets/images/bg-bg.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 50vh;
+        width: 100%;
+        background-position: center center;
+      }
+    .btn{
+       padding: 10px;
+       margin: 10px;
+       border-radius: 2px;
+       font-size: 10px; 
+    } 
+    .column{
+        width: 50%;
+        padding: 5px;
+    }  
+    .column p{
+        font-size: 12px;
+    }
+}
