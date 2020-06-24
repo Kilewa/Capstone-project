@@ -314,19 +314,64 @@ input[type='submit']{
     width: 100%;
     text-align: center;
 }
+.footer h1{
+    font-size: 30px;
+    color: #B20020;
+    padding: 15px;
+    text-transform: capitalize;
+}
 .footer-links{
     text-align: center;
     float: left;
     width: 33.3%;
     min-height: 50vh;
-    background: #CD5C5C;
+    background:#C4C4C4;
     padding: 30px;
 }
+
 .social_links > ul > li{
     text-decoration: none;
     list-style: none;
-    color: teal;
+    color: #1B065A;
     font-size: 20px;
     padding: 10px;
     justify-content: space-around;
+}
+.social_links > ul > li:hover{
+    color:#B20020; 
+    margin: 2px;
+    cursor: pointer;
+    transition: 0.1s ease-in;
+
+}
+
+.quick-links > ul > li{
+    text-decoration: none;
+    list-style: none;
+    color: #1B065A;
+    font-size: 20px;
+    padding: 10px;
+    justify-content: space-around; 
+}
+.quick-links > ul > li > a:hover{
+    color:#B20020; 
+    cursor: pointer;
+    transition: 0.1s ease-in;
+}
+.quick-links > ul > li > a{
+    text-decoration: none;
+}
+.footer-btn > input[type="submit"]{
+    background: #BF206D;
+    color: #fff;
+    padding: 10px;
+    margin: 20px;
+    width: 50%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
 }
