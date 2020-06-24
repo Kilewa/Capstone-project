@@ -310,3 +310,15 @@ input[type='submit']{
     text-decoration: none;
     cursor: pointer;
 }
+.footer{
+    width: 100%;
+    text-align: center;
+}
+.footer-links{
+    text-align: center;
+    float: left;
+    width: 33.3%;
+    min-height: 50vh;
+    background: #CD5C5C;
+    padding: 30px;
+}
