@@ -13,6 +13,7 @@ nav{
     align-items: center;
     min-height: 15vh;
     background-color: #08114B;
+    width: 100%;
 }
 .logo:hover{
     cursor: pointer;
@@ -151,7 +152,6 @@ nav{
 .btn:hover{
     color: aquamarine;
     cursor: pointer;
-    opacity: 0.8;
 }
 .who{
     width: 100%;
@@ -185,10 +185,11 @@ nav{
     border: ridge 1px whitesmoke ;
 }
 .column:hover{
-    padding: 20px;
+    opacity: 0.5;
     cursor: pointer;
-    transition: 0.5s ease-in;
+    transition: 0.2s ease-in;
     overflow: hidden;
+    padding: 1px;
 }
 
 /* Clear floats after image containers */
@@ -226,7 +227,7 @@ nav{
     #landing-page{
         background: url("assets/images/bg-bg.jpg");
         background-size: cover;
-        background-attachment: fixed;
+        /* background-attachment: fixed; */
         background-repeat: no-repeat;
         background-position: center center;
         height: 50vh;
@@ -246,4 +247,66 @@ nav{
     .column p{
         font-size: 12px;
     }
+}
+
+.contact{
+    background: url("assets/images/contact.jpg");
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-position: center center;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    margin-top: 30px;
+    padding: 20px;
+    height: 70vh;
+}
+.contact img{
+    padding: 80px;
+    margin-top: 30px;
+}
+.contact h1{
+   text-transform: uppercase;
+   padding: 0px;
+   font-size: 40px;
+   margin: 0px;
+}
+
+.my_form{
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 30px;
+    width: 100%;
+}
+#contact_form{
+    display: block;
+    text-align: center;
+}
+
+input[type='text']{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    width: 50%;
+    border-radius: 8px;
+    outline: none;
+    text-transform: capitalize;
+    background-color: #C4C4C4;
+    color: #BF206D;
+}
+input[type='submit']{
+    background: #BF206D;
+    color: #fff;
+    padding: 10px;
+    margin: 20px;
+    width: 10%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
 }
