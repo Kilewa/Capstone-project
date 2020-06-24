@@ -322,3 +322,11 @@ input[type='submit']{
     background: #CD5C5C;
     padding: 30px;
 }
+.social_links > ul > li{
+    text-decoration: none;
+    list-style: none;
+    color: teal;
+    font-size: 20px;
+    padding: 10px;
+    justify-content: space-around;
+}
