@@ -3,7 +3,6 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
 body{
     background: #08114B;
 }
@@ -394,6 +393,15 @@ input[type='submit']{
 .copyright > h3 {
     text-transform: capitalize;
     padding-bottom: 10px;
+}
+
+.caret > i{
+    font-size: 50px;
+    padding: 10px;
+}
+.caret > i:hover{
+    color: #1B065A;
+    cursor: pointer;
 }
 
 @media screen and (max-width:768px){
