@@ -406,12 +406,12 @@ input[type='submit']{
     width: 100%;
     margin-top: 30px;
     padding: 20px;
-    height: 90vh;
+    height: 115vh;
     }
     .my_form{
         text-align: center;
         justify-content: center;
-        padding: 5px;
+        padding: 10px;
         font-size: 15px;
         width: 100%;
     }
@@ -432,7 +432,7 @@ input[type='submit']{
     .footer{
         width: 100%;
         text-align: center;
-        min-height: 20vh;
+        min-height: 40vh;
     }
     .footer-links{
         text-align: center;
@@ -443,4 +443,12 @@ input[type='submit']{
         border: none;
     
     }
+    .social_links > ul > li{
+        font-size: 30px;
+        padding: 10px;
+    }
+    .footer-btn{
+        padding: 20px;
+    }
+    
 }
