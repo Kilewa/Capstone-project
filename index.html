@@ -6,8 +6,7 @@
     <title>JS PDF BOOKS</title>
     <link href="fontawesome/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />    
 </head>
 <body>
   <nav>
@@ -39,44 +38,44 @@
       <h2>READ</h2>
     </div>
     <div class="row">
-      <div class="column">
+      <div class="column" data-aos="fade-right">
         <img src="assets/images/cover.png" width=200px height="300px" alt="book"> 
         <p>Create awesome JavaScript driven web apps with modern JavaScrip.</p>
         <button class="btn"><i class="fas fa-download"></i>Download</button>
       </div>
-      <div class="column">
+      <div class="column" data-aos="fade-left" >
         <img src="assets/images/cover1.jpg" width=200px height="300px" alt="book1">
          <p> This is a book about JavaScript, programming and the wonders of the digital.</p>
          <button class="btn"><i class="fas fa-download"></i>Download</button>
       </div>
-      <div class="column">
+      <div class="column" data-aos="fade-right">
         <img src="assets/images/cover3.png" width=200px height="300px" alt="book2">
         <p>An in-depth book on ECMAScript 6, for JavaScript programmers.</p>
         <button class="btn"><i class="fas fa-download"></i>Download</button>
       </div>
-      <div class="column">
+      <div class="column" data-aos="fade-left">
         <img src="assets/images/cover4.jpg" width=200px height="300px" alt="book3">
         <p>Create awesome JavaScript driven web apps with modern JavaScript.</p>
         <button class="btn"><i class="fas fa-download"></i>Download</button>
       </div>
     </div>
     <div class="row">
-      <div class="column">
+      <div class="column" data-aos="fade-right">
         <img src="assets/images/cover5.jpg" width=200px height="300px" alt="book">
         <p>Rediscovering JavaScript. Master ES6, ES7, and ES8. by Venkat Subramaniam.</p>
         <button class="btn"><i class="fas fa-download"></i>Download</button>
       </div>
-      <div class="column">
+      <div class="column" data-aos="fade-left">
         <img src="assets/images/cover6.jpg" width=200px height="300px" alt="book1"> 
         <p> Advanced Guide to Programming with JavaScript - by Masterson, Charlie.</p>
         <button class="btn"><i class="fas fa-download"></i>Download</button>
       </div>
-      <div class="column">
+      <div class="column" data-aos="fade-right">
         <img src="assets/images/cover11.jpg" width=200px height="300px" alt="book2">
         <p>Beginners Guide on Javascript Programming by Goddard, Nick</p>
         <button class="btn"><i class="fas fa-download"></i>Download</button>
       </div>
-      <div class="column">
+      <div class="column" data-aos="fade-left">
         <a href="assets/images/jsninja2.pdf" download="javascript ninja">
           <img src="assets/images/cover10.jpg" width=200px height="300px" alt="book3">
         </a>
@@ -84,7 +83,7 @@
         <button class="btn"><i class="fas fa-download"></i>Download</button>
       </div>
     </div>
-    <div class="contact">
+    <div class="contact" data-aos="fade-left">
       <h1>contact us</h1>
       <h2>Send us Email</h2>
       <div class="my_form">
@@ -130,4 +129,11 @@
   </div>
 
   <script src="index.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 400,
+      duration: 1000
+    });
+  </script>
 <html>
