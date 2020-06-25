@@ -260,8 +260,9 @@ nav{
     color: #fff;
     width: 100%;
     margin-top: 30px;
+    /* margin-bottom: 5px; */
     padding: 20px;
-    height: 70vh;
+    height: 90vh;
 }
 .contact img{
     padding: 80px;
@@ -315,6 +316,7 @@ input[type='submit']{
 .footer{
     width: 100%;
     text-align: center;
+    min-height: 30vh;
 }
 .footer h1{
     font-size: 30px;
@@ -326,9 +328,13 @@ input[type='submit']{
     text-align: center;
     float: left;
     width: 33.3%;
-    min-height: 50vh;
+    height: 60vh;
     background:#C4C4C4;
-    padding: 30px;
+    /* padding: 30px; */
+
+    /* margin-top: 50px; */
+    border: none;
+
 }
 
 .social_links > ul > li{
@@ -376,4 +382,65 @@ input[type='submit']{
     text-transform: uppercase;
     text-decoration: none;
     cursor: pointer;
+}
+.copyright{
+    text-align: center;
+    justify-content: center;
+    background:#C4C4C4;
+    width: 100%;
+    height: 20vh;
+    color: #B20020;
+}
+.copyright > h3 {
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width:768px){
+    .contact{
+    background: url("assets/images/contact-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    margin-top: 30px;
+    padding: 20px;
+    height: 90vh;
+    }
+    .my_form{
+        text-align: center;
+        justify-content: center;
+        padding: 5px;
+        font-size: 15px;
+        width: 100%;
+    }
+    input[type='submit']{
+        background: #BF206D;
+        color: #fff;
+        padding: 10px;
+        margin-bottom: 10px;
+        width: 20%;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        font-size: 10px;
+        text-transform: uppercase;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .footer{
+        width: 100%;
+        text-align: center;
+        min-height: 20vh;
+    }
+    .footer-links{
+        text-align: center;
+        float: left;
+        width: 100%;
+        height: 75vh;
+        background:#C4C4C4;
+        border: none;
+    
+    }
 }
