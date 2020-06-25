@@ -167,6 +167,7 @@ nav{
     padding: 10px;
     letter-spacing: 2px;
     word-spacing: 10px;
+    text-transform: capitalize;
 
 }
 .who p{
@@ -174,6 +175,8 @@ nav{
     line-height: 25px;
     letter-spacing: 2px;
     word-spacing: 8px;
+    margin: 20px;
+    padding-bottom: 20px;
 
 }
 .column{
@@ -232,7 +235,6 @@ nav{
         background-position: center center;
         height: 50vh;
         width: 100%;
-        background-position: center center;
       }
     .btn{
        padding: 10px;
