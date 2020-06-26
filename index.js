@@ -1,3 +1,5 @@
+// navigation slide function
+
 const navSlide = () => {
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.nav-links');
@@ -24,3 +26,22 @@ const navSlide = () => {
     
 }
 navSlide();
+
+// scroll to top function
+const caretScrollToTop = document.querySelector('.scrollToTop');
+caretScrollToTop.addEventListener('click', function(){
+    //method 1
+    // window.scrollTo(0,0);
+    //method 2 not compatible to all browsers
+    // window.scrollTo({
+    //     top: 0,
+    //     left: 0,
+    //     behavior:'smooth'
+    
+
+    //method compatimble to almost all browsers 
+
+    // });
+    $(`html, body`).animate({scrollTop: 0}, 'slow');
+});
+caretScrollToTop ();

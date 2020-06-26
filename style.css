@@ -3,7 +3,6 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
 body{
     background: #08114B;
 }
@@ -167,6 +166,7 @@ nav{
     padding: 10px;
     letter-spacing: 2px;
     word-spacing: 10px;
+    text-transform: capitalize;
 
 }
 .who p{
@@ -174,6 +174,8 @@ nav{
     line-height: 25px;
     letter-spacing: 2px;
     word-spacing: 8px;
+    margin: 20px;
+    padding-bottom: 20px;
 
 }
 .column{
@@ -232,7 +234,6 @@ nav{
         background-position: center center;
         height: 50vh;
         width: 100%;
-        background-position: center center;
       }
     .btn{
        padding: 10px;
@@ -258,8 +259,9 @@ nav{
     color: #fff;
     width: 100%;
     margin-top: 30px;
+    /* margin-bottom: 5px; */
     padding: 20px;
-    height: 70vh;
+    height: 90vh;
 }
 .contact img{
     padding: 80px;
@@ -313,20 +315,148 @@ input[type='submit']{
 .footer{
     width: 100%;
     text-align: center;
+    min-height: 30vh;
+}
+.footer h1{
+    font-size: 30px;
+    color: #B20020;
+    padding: 15px;
+    text-transform: capitalize;
 }
 .footer-links{
     text-align: center;
     float: left;
     width: 33.3%;
-    min-height: 50vh;
-    background: #CD5C5C;
-    padding: 30px;
+    height: 60vh;
+    background:#C4C4C4;
+    /* padding: 30px; */
+
+    /* margin-top: 50px; */
+    border: none;
+
 }
+
 .social_links > ul > li{
     text-decoration: none;
     list-style: none;
-    color: teal;
+    color: #1B065A;
     font-size: 20px;
     padding: 10px;
     justify-content: space-around;
+}
+.social_links > ul > li:hover{
+    color:#B20020; 
+    margin: 2px;
+    cursor: pointer;
+    transition: 0.1s ease-in;
+
+}
+
+.quick-links > ul > li{
+    text-decoration: none;
+    list-style: none;
+    color: #1B065A;
+    font-size: 20px;
+    padding: 10px;
+    justify-content: space-around; 
+}
+.quick-links > ul > li > a:hover{
+    color:#B20020; 
+    cursor: pointer;
+    transition: 0.1s ease-in;
+}
+.quick-links > ul > li > a{
+    text-decoration: none;
+}
+.footer-btn > input[type="submit"]{
+    background: #BF206D;
+    color: #fff;
+    padding: 10px;
+    margin: 20px;
+    width: 50%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+.copyright{
+    text-align: center;
+    justify-content: center;
+    background:#C4C4C4;
+    width: 100%;
+    height: 20vh;
+    color: #B20020;
+}
+.copyright > h3 {
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+.caret > i{
+    font-size: 50px;
+    padding: 10px;
+}
+.caret > i:hover{
+    color: #1B065A;
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px){
+    .contact{
+    background: url("assets/images/contact-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    margin-top: 30px;
+    padding: 20px;
+    height: 115vh;
+    }
+    .my_form{
+        text-align: center;
+        justify-content: center;
+        padding: 10px;
+        font-size: 15px;
+        width: 100%;
+    }
+    input[type='submit']{
+        background: #BF206D;
+        color: #fff;
+        padding: 10px;
+        margin-bottom: 10px;
+        width: 20%;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        font-size: 10px;
+        text-transform: uppercase;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .footer{
+        width: 100%;
+        text-align: center;
+        min-height: 40vh;
+    }
+    .footer-links{
+        text-align: center;
+        float: left;
+        width: 100%;
+        height: 75vh;
+        background:#C4C4C4;
+        border: none;
+    
+    }
+    .social_links > ul > li{
+        font-size: 30px;
+        padding: 10px;
+    }
+    .footer-btn{
+        padding: 20px;
+    }
+    
 }

@@ -6,6 +6,7 @@
     <title>JS PDF BOOKS</title>
     <link href="fontawesome/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />    
 </head>
 <body>
   <nav>
@@ -14,9 +15,9 @@
     </div>
       <ul class="nav-links">
         <li> <a href="#home">Home</a> </li>
-        <li> <a href="#books">Books</a> </li>
-        <li> <a href="#about">About</a> </li>
-        <li> <a href="#contact">Contact us</a> </li>
+        <li> <a href="#books">Books</a></li>
+        <li> <a href="#about">About</a></li>
+        <li> <a href="#contact">Contact us</a></li>
     </ul>
     <div class="burger">
         <div class="line1"></div>
@@ -26,61 +27,63 @@
   </nav> 
   <div class="main">
     <div class="button" id="landing-page">
-      <button type="button" class="btn">Free java script pdf books</button>
+      <button type="button" class="btn">Free javascript books</button>
     </div>
     <div class="who">
-      <h2>Who we are</h2>
-      <p>We provide free javascript pdf books for developers over the world.</p>
-      <p>Upskill using our library selections.We give the best!</p>
+      <h2>What we do</h2>
+      <p>We provide free javascript pdf books for developers over the world.
+      <br>Upskill using our library selections.We give the best!</p>
     </div>
     <div id="read">
       <h2>READ</h2>
     </div>
     <div class="row">
-      <div class="column">
+      <div class="column" data-aos="fade-right">
         <img src="assets/images/cover.png" width=200px height="300px" alt="book"> 
         <p>Create awesome JavaScript driven web apps with modern JavaScrip.</p>
-        <button class="btn">click to read</button>
+        <button class="btn"><i class="fas fa-download"></i>Download</button>
       </div>
-      <div class="column">
+      <div class="column" data-aos="fade-left" >
         <img src="assets/images/cover1.jpg" width=200px height="300px" alt="book1">
          <p> This is a book about JavaScript, programming and the wonders of the digital.</p>
-         <button class="btn">click to read</button>
+         <button class="btn"><i class="fas fa-download"></i>Download</button>
       </div>
-      <div class="column">
+      <div class="column" data-aos="fade-right">
         <img src="assets/images/cover3.png" width=200px height="300px" alt="book2">
         <p>An in-depth book on ECMAScript 6, for JavaScript programmers.</p>
-        <button class="btn">click to read</button>
+        <button class="btn"><i class="fas fa-download"></i>Download</button>
       </div>
-      <div class="column">
+      <div class="column" data-aos="fade-left">
         <img src="assets/images/cover4.jpg" width=200px height="300px" alt="book3">
         <p>Create awesome JavaScript driven web apps with modern JavaScript.</p>
-        <button class="btn">click to read</button>
+        <button class="btn"><i class="fas fa-download"></i>Download</button>
       </div>
     </div>
     <div class="row">
-      <div class="column">
+      <div class="column" data-aos="fade-right">
         <img src="assets/images/cover5.jpg" width=200px height="300px" alt="book">
         <p>Rediscovering JavaScript. Master ES6, ES7, and ES8. by Venkat Subramaniam.</p>
-        <button class="btn">click to read</button>
+        <button class="btn"><i class="fas fa-download"></i>Download</button>
       </div>
-      <div class="column">
+      <div class="column" data-aos="fade-left">
         <img src="assets/images/cover6.jpg" width=200px height="300px" alt="book1"> 
         <p> Advanced Guide to Programming with JavaScript - by Masterson, Charlie.</p>
-        <button class="btn">click to read</button>
+        <button class="btn"><i class="fas fa-download"></i>Download</button>
       </div>
-      <div class="column">
+      <div class="column" data-aos="fade-right">
         <img src="assets/images/cover11.jpg" width=200px height="300px" alt="book2">
         <p>Beginners Guide on Javascript Programming by Goddard, Nick</p>
-        <button class="btn">click to read</button>
+        <button class="btn"><i class="fas fa-download"></i>Download</button>
       </div>
-      <div class="column">
-        <img src="assets/images/cover10.jpg" width=200px height="300px" alt="book3">
+      <div class="column" data-aos="fade-left">
+        <a href="assets/images/jsninja2.pdf" download="javascript ninja">
+          <img src="assets/images/cover10.jpg" width=200px height="300px" alt="book3">
+        </a>
         <p>This book shows you how to build applications using Javascript & HTML5.</p>
-        <button class="btn">click to read</button>
+        <button class="btn"><i class="fas fa-download"></i>Download</button>
       </div>
     </div>
-    <div class="contact">
+    <div class="contact" data-aos="fade-left">
       <h1>contact us</h1>
       <h2>Send us Email</h2>
       <div class="my_form">
@@ -97,13 +100,13 @@
       <div class="social_links footer-links">
         <h1>Follow us on</h1>
         <ul>
-          <li><i class="fab fa-facebook">   facebook</i></li>
-          <li><i class="fab fa-twitter"> Twitter</i></li>
-          <li><i class="fab fa-linkedin">   Linkedin</i></li>
-          <li><i class="fab fa-instagram">  Instagram</i></li>
+          <li><i class="fab fa-facebook"></i></li>
+          <li><i class="fab fa-twitter"></i></li>
+          <li><i class="fab fa-linkedin"></i></li>
+          <li><i class="fab fa-instagram"></i></li>
         </ul> 
     </div> 
-    <div class="footer-links">
+    <div class="footer-links quick-links">
       <h1>Quick Links</h1>
       <ul>
         <li> <a href="#home">Home</a> </li>
@@ -112,14 +115,26 @@
         <li> <a href="#contact">Contact us</a> </li>
     </ul>
     </div>
-    <div class="footer-links">
+    <div class="footer-links footer-btn">
       <h1>Subscribe Us</h1>
       <input type="text" id="name" placeholder="Enter email" name="name"><br>
       <input type="submit" value="Submit">
+    </div>
+    <div class="copyright footer-links ">
+      <h3>made with 💜 by George Kilewa.</h3>
+      <p>Free Javascript Books &copy; <script>document.write(new Date().getFullYear());</script>. All Rights are Reserved.</p>
+      <span class="caret scrollToTop"><i class="fas fa-caret-square-up"></i></span>
     </div>
     </div>
   </div>
 
   <script src="index.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 400,
+      duration: 1000
+    });
+  </script>
 </body>
 </html>
