@@ -340,7 +340,7 @@ input[type='submit']{
     text-decoration: none;
     list-style: none;
     color: #1B065A;
-    font-size: 20px;
+    font-size: 25px;
     padding: 10px;
     justify-content: space-around;
 }
@@ -356,7 +356,7 @@ input[type='submit']{
     text-decoration: none;
     list-style: none;
     color: #1B065A;
-    font-size: 20px;
+    font-size: 23px;
     padding: 10px;
     justify-content: space-around; 
 }
@@ -373,7 +373,7 @@ input[type='submit']{
     color: #fff;
     padding: 10px;
     margin: 20px;
-    width: 50%;
+    width: 30%;
     outline: none;
     border: none;
     border-radius: 5px;
@@ -381,6 +381,10 @@ input[type='submit']{
     text-transform: uppercase;
     text-decoration: none;
     cursor: pointer;
+}
+.footer-btn > input[type="submit"]:hover{
+    background:  #1B065A;
+    color: #BF206D;
 }
 .copyright{
     text-align: center;
