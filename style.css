@@ -398,6 +398,7 @@ input[type='submit']{
 .copyright > h3 {
     text-transform: capitalize;
     padding-bottom: 10px;
+    overflow-y: hidden;
 }
 
 .caret > i{
